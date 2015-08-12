@@ -24,7 +24,16 @@ Crafty.scene("loading", function() {
 		botpimp: [9,1],
 		wall: [0,2]
 	})
-	
+
+	Crafty.sprite (Settings.poligon, "Images (Dev)/Map/live.png",{
+		live: [0,0]
+	})
+
+
+	Crafty.sprite(Settings.poligon, "Images (Dev)/Map/ScorePanel.png",{
+		scorepanel: [0,0,320,48]
+	})
+
 	
 	Crafty.sprite(Settings.poligon, "Images (Dev)/Objects sprite.png",{ //Задаем спрайтам обьектов назваи
 		playerR: [4,2],

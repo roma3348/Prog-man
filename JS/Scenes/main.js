@@ -4,6 +4,9 @@ Crafty.scene("main", function() {
 
     Crafty.background('#000018');//Цвет Заднего фона
 
+
+    Crafty.e("score");
+    
     Crafty.e("map");
     Crafty.e("player");
     
