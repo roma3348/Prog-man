@@ -1,2 +1,2 @@
 # Prog-man
-Alpfa version
+Alpha version
