@@ -40,7 +40,7 @@ Crafty.scene("loading", function () {
         playerL: [3, 2],
         bug: [0, 1],
         java: [0, 0],
-        c: [1, 0],
+        cSharp: [1, 0],
         php: [2, 0],
         dotNET: [3, 0],
         js: [4, 0],

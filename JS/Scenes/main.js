@@ -12,7 +12,7 @@ Crafty.scene("main", function () {
 
     Crafty.e("Java");
     Crafty.e("DotNET");
-    Crafty.e("C");
+    Crafty.e("C#");
     Crafty.e("JS");
     Crafty.e("Php");
 
