@@ -1,8 +1,9 @@
 Crafty.c("Php", {
-        init: function() {
-		this.addComponent("2D, DOM, php, Collision");
-	    this.bind ("spawn", function(){
-   		var random = (Math.random()*100);
+   init: function() {
+      this.addComponent("2D, DOM, php, Collision");
+      this.collision();
+	   this.bind ("spawn", function(){
+      	var random = (Math.random()*100);
    		if (random>0 && random<= 26){
    			this.attr({x : 4 * Settings.poligon, y : 1 * Settings.poligon})
    		}
@@ -16,7 +17,6 @@ Crafty.c("Php", {
    			this.attr({x : 15 * Settings.poligon, y : 9 * Settings.poligon})
    		}
 		})
-
-   	this.trigger("spawn");
-		},
+      this.trigger("spawn");
+	}
 });
