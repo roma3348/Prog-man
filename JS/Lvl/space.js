@@ -1,5 +1,5 @@
 Crafty.c("space", {
-    init: function() {
+    init: function () {
         this.addComponent("2D, DOM, Collision");
     }
 });

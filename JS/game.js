@@ -1,10 +1,10 @@
 var Settings = {
-    width: 20,//Ширина и высота в "блоках" 16х16
+    width: 20, //Ширина и высота в "блоках" 16х16
     heigth: 14,
     poligon: 16,
     lives: 3,
     score: 0
-    //Место для других настроек
+            //Место для других настроек
 };
 
 var Inc = {//Это я сделал переменную, по типу как Settings, но чтобы в ней можно было изменять значения не боясь перезаписи.
@@ -12,7 +12,7 @@ var Inc = {//Это я сделал переменную, по типу как S
     lives: Settings.lives,
     score: Settings.score
 };
-window.onload = function() {
-	Crafty.init(Settings.width * Settings.poligon, Settings.heigth * Settings.poligon);
-	Crafty.scene("loading");
+window.onload = function () {
+    Crafty.init(Settings.width * Settings.poligon, Settings.heigth * Settings.poligon);
+    Crafty.scene("loading");
 };
