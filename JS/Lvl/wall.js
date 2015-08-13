@@ -1,4 +1,4 @@
-Crafty.c("gubra", {
+Crafty.c("Wall", {
     init: function(){
         this.addComponent("2D, DOM, wall, Collision");
 		/*this.addComponent("topline")
