@@ -1,7 +1,6 @@
-Crafty.c("C#", {
+Crafty.c("C", {
     init: function () {
-        this.addComponent("2D, DOM, cSharp, Collision");
-        this.collision();
+        this.addComponent("2D, DOM, c");
         this.bind("spawn", function () {
             var random = (Math.random() * 100);
             if (random > 0 && random <= 26) {

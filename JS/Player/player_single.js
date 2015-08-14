@@ -25,17 +25,5 @@ Crafty.c("player", {
             Crafty.trigger("updateLives")
             data.destroy();
         })
-        this.onHit("C#", function (e) {
-            var data = e[0].obj;
-            data.destroy();
-        });
-        this.onHit("DotNET", function (e) {
-            var data = e[0].obj;
-            data.destroy();
-        });
-        this.onHit("Java", function (e) {
-            var data = e[0].obj;
-            data.destroy();
-        });
     }
 });

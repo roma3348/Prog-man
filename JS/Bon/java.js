@@ -1,7 +1,6 @@
 Crafty.c("Java", {
     init: function () {
-        this.addComponent("2D, DOM, java, Collision");
-        this.collision();
+        this.addComponent("2D,DOM,java");
         this.bind("spawn", function () {
             var random = (Math.random() * 100);
             if (random > 0 && random <= 26) {
@@ -17,6 +16,7 @@ Crafty.c("Java", {
                 this.attr({x: 13 * Settings.poligon, y: 7 * Settings.poligon})
             }
         })
+
         this.trigger("spawn");
     },
 });
