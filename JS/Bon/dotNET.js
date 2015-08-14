@@ -1,6 +1,7 @@
 Crafty.c("DotNET", {
     init: function () {
-        this.addComponent("2D, DOM, dotNET");
+        this.addComponent("2D, DOM, dotNET, Collision");
+        this.collision();
         this.bind("spawn", function () {
             var random = (Math.random() * 100);
             if (random > 0 && random <= 51) {
@@ -10,7 +11,6 @@ Crafty.c("DotNET", {
                 this.attr({x: 17 * Settings.poligon, y: 5 * Settings.poligon})
             }
         })
-
         this.trigger("spawn");
     },
 });
