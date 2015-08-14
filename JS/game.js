@@ -1,7 +1,7 @@
 var Settings = {
     width: 20, //Ширина и высота в "блоках" 16х16
     heigth: 14,
-    poligon: 16,
+    poligon: 20,
     lives: 3,
     score: 0
             //Место для других настроек

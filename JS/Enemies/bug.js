@@ -18,6 +18,22 @@ Crafty.c("Bug", {
         })
 
         this.trigger("spawn");
-
+		this.bind("EnterFrame",function() {
+		var directions = [
+		                  {name: 'BugUp', x : 0, y : -1},
+						  {name: 'BugRight', x : 1, y :0},
+						  {name: 'BugLeft', x : -1, y : 0},
+						  {name: 'BugDown', x : 0, y : 1}
+						 ];
+		if (!direction) {
+			var rand = Math.floor(Math.random() * (3 - 0 + 1) + 0);
+            var direction = directions[rand];
+		}	
+				
+		this.x += direction.x;
+        this.y += direction.y;
+        })
+        this.trigger("EnterFrame");
+		
     },
 });
