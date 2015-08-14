@@ -22,6 +22,6 @@ Crafty.c("Wall", {
          this.addComponent("toptobot")
          this.addComponent("botpimp");*/
         this.collision();
-		this.requires("solid");
+	this.requires("solid");
     }
 });
